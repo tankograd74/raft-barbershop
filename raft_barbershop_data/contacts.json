@@ -1,0 +1,136 @@
+{
+  "title": "R. A. F. T",
+  "phones": [
+    {
+      "number": "+7 (922) 212-90-20",
+      "type": "phone",
+      "value": "+79222129020"
+    }
+  ],
+  "address": {
+    "short": "ул. Бажова, 193, Екатеринбург",
+    "full": "Свердловская область, Екатеринбург, улица Бажова, 193",
+    "postal_code": "620075",
+    "country": "Россия",
+    "composite": {
+      "country": "Россия",
+      "area": "муниципальное образование Екатеринбург",
+      "locality": "Екатеринбург",
+      "street": "улица Бажова",
+      "house": "193"
+    },
+    "coordinates": {
+      "lon": 60.632383,
+      "lat": 56.827489
+    },
+    "entrances": [
+      {
+        "coordinates": [
+          60.63267,
+          56.827163
+        ],
+        "azimuth": 85.43818734340903,
+        "tilt": 0
+      },
+      {
+        "coordinates": [
+          60.63237293,
+          56.82749398
+        ],
+        "azimuth": 261.8705650577473,
+        "tilt": 0
+      }
+    ],
+    "geo_where": {
+      "id": "56093926",
+      "seoname": "ulitsa_bazhova_193",
+      "kind": "house",
+      "coordinates": [
+        60.63267,
+        56.827163
+      ],
+      "displayCoordinates": [
+        60.63267,
+        56.827163
+      ],
+      "encodedCoordinates": "YkkYcARiT0IHQFtsfXRzdn1lZw=="
+    }
+  },
+  "working_hours": {
+    "text": "вт,ср,пт,сб,вс 11:00–21:00",
+    "current_status": {
+      "isOpenNow": false,
+      "text": "Закрыто до завтра",
+      "shortText": "Закрыто до завтра",
+      "tag": []
+    },
+    "schedule": [
+      {
+        "day": "понедельник",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "вторник",
+        "closed": true,
+        "hours": null
+      },
+      {
+        "day": "среда",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "четверг",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "пятница",
+        "closed": true,
+        "hours": null
+      },
+      {
+        "day": "суббота",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "воскресенье",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      }
+    ],
+    "timezone_offset_seconds": 18000
+  },
+  "coordinates": {
+    "lon": 60.632383,
+    "lat": 56.827489
+  },
+  "yandex_maps_url": "https://yandex.ru/maps/org/r_a_f_t/84586990378/"
+}

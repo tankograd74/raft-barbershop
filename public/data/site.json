@@ -1,0 +1,696 @@
+{
+  "org_id": "84586990378",
+  "title": "R. A. F. T",
+  "category": "Барбершоп",
+  "yandex_maps_url": "https://yandex.ru/maps/org/r_a_f_t/84586990378/",
+  "synced_at": "2026-07-17T19:07:52.301Z",
+  "phone": {
+    "tel": "+79222129020",
+    "display": "+7 (922) 212-90-20"
+  },
+  "address": {
+    "short": "ул. Бажова, 193, Екатеринбург",
+    "street_line": "ул. Бажова, 193",
+    "city_line": "Екатеринбург, Свердловская область",
+    "full": "Свердловская область, Екатеринбург, улица Бажова, 193",
+    "locality": "Екатеринбург"
+  },
+  "coordinates": {
+    "lat": 56.827489,
+    "lon": 60.632383
+  },
+  "rating": {
+    "value": 4.7,
+    "rating_count": 26,
+    "review_count": 18
+  },
+  "working_hours": {
+    "text": "закрыто до 11:00 am",
+    "open_days_label": "Вт, Ср, Пт, Сб, Вс",
+    "closed_days_label": "Пн, Чт",
+    "hours_label": "11:00–21:00",
+    "closed_weekdays": [
+      1,
+      4
+    ],
+    "open_from_minutes": 660,
+    "open_to_minutes": 1260,
+    "schedule": [
+      {
+        "day": "понедельник",
+        "closed": true,
+        "hours": null
+      },
+      {
+        "day": "вторник",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "среда",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "четверг",
+        "closed": true,
+        "hours": null
+      },
+      {
+        "day": "пятница",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "суббота",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "воскресенье",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      }
+    ],
+    "timezone_offset_seconds": 18000
+  },
+  "prices": {
+    "man_haircut": "1500–2700 ₽",
+    "rows": [
+      {
+        "name": "Стрижка машинкой",
+        "price": "от 1 500 ₽",
+        "muted": false
+      },
+      {
+        "name": "Моделирование бороды",
+        "price": "уточняется",
+        "muted": true
+      },
+      {
+        "name": "Комплекс «голова + борода»",
+        "price": "уточняется",
+        "muted": true
+      },
+      {
+        "name": "Укладки / уход",
+        "price": "уточняется",
+        "muted": true
+      }
+    ]
+  },
+  "amenities": [
+    {
+      "id": "wifi",
+      "title": "Wi‑Fi",
+      "desc": "Бесплатный интернет"
+    },
+    {
+      "id": "parking",
+      "title": "Парковка",
+      "desc": "Рядом с барбершопом"
+    },
+    {
+      "id": "gift",
+      "title": "Сертификаты",
+      "desc": "Подарочные сертификаты"
+    },
+    {
+      "id": "promo",
+      "title": "Акции и бонусы",
+      "desc": "Дисконтная система"
+    },
+    {
+      "id": "payment",
+      "title": "Оплата",
+      "desc": "СБП · Онлайн · Наличные · Банковский перевод"
+    }
+  ],
+  "aspects": [
+    "Мастера",
+    "Персонал",
+    "Обслуживание",
+    "Барберы"
+  ],
+  "transport": {
+    "stops": [
+      {
+        "name": "Сибирский тракт",
+        "distance": "420 м"
+      },
+      {
+        "name": "Шарташский рынок",
+        "distance": "450 м"
+      },
+      {
+        "name": "Улица Декабристов",
+        "distance": "590 м"
+      }
+    ],
+    "metro": [
+      {
+        "name": "Геологическая",
+        "distance": "2,24 км"
+      },
+      {
+        "name": "Площадь 1905 года",
+        "distance": "3,1 км"
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "url": "/photos/01_2a0000018c78942a.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/10702157/2a0000018c78942a69ff1d607045c586d847/XXXL",
+      "category": "work",
+      "alt": "Работы",
+      "caption": "Работы",
+      "tall": true,
+      "tags": [
+        "Услуги"
+      ]
+    },
+    {
+      "id": 2,
+      "url": "/photos/02_2a0000018c78942d.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/10814540/2a0000018c78942dcc85008a022c9fd517e2/XXXL",
+      "category": "work",
+      "alt": "Работы",
+      "caption": "Работы",
+      "tall": false,
+      "tags": [
+        "Услуги"
+      ]
+    },
+    {
+      "id": 3,
+      "url": "/photos/03_2a0000018c7894bd.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/1439437/2a0000018c7894bd7a4bc98fd838bbb61e0e/XXXL",
+      "category": "entrance",
+      "alt": "Вход",
+      "caption": "Вход",
+      "tall": true,
+      "tags": [
+        "Вход"
+      ]
+    },
+    {
+      "id": 4,
+      "url": "/photos/04_2a0000018c789449.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018c789449c29a9cb7c0e2c41d4bde/XXXL",
+      "category": "work",
+      "alt": "Работы",
+      "caption": "Работы",
+      "tall": true,
+      "tags": [
+        "Услуги"
+      ]
+    },
+    {
+      "id": 5,
+      "url": "/photos/05_2a0000018c789438.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/11396712/2a0000018c7894389cf52e4ea99fa608c928/XXXL",
+      "category": "work",
+      "alt": "Работы",
+      "caption": "Работы",
+      "tall": true,
+      "tags": [
+        "Услуги"
+      ]
+    },
+    {
+      "id": 6,
+      "url": "/photos/06_2a0000018c789438.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/10812438/2a0000018c789438920754a8570f6b9ab638/XXXL",
+      "category": "work",
+      "alt": "Работы",
+      "caption": "Работы",
+      "tall": true,
+      "tags": [
+        "Услуги"
+      ]
+    },
+    {
+      "id": 7,
+      "url": "/photos/07_2a0000018c78944a.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/11004775/2a0000018c78944a8a7e4f4bfbefcd02e92a/XXXL",
+      "category": "work",
+      "alt": "Работы",
+      "caption": "Работы",
+      "tall": true,
+      "tags": [
+        "Услуги"
+      ]
+    },
+    {
+      "id": 8,
+      "url": "/photos/08_2a0000018c78951b.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/10648814/2a0000018c78951ba0fe9b13810827cd4f58/XXXL",
+      "category": "interior",
+      "alt": "Интерьер",
+      "caption": "Интерьер",
+      "tall": true,
+      "tags": [
+        "Внутри"
+      ]
+    },
+    {
+      "id": 9,
+      "url": "/photos/09_2a0000018c7894c0.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/11244149/2a0000018c7894c01844cb2d331acf0e9ef8/XXXL",
+      "category": "entrance",
+      "alt": "Вход",
+      "caption": "Вход",
+      "tall": true,
+      "tags": [
+        "Вход"
+      ]
+    },
+    {
+      "id": 10,
+      "url": "/photos/10_2a0000018c789449.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018c7894498743310d4e20f3c95361/XXXL",
+      "category": "work",
+      "alt": "Работы",
+      "caption": "Работы",
+      "tall": true,
+      "tags": [
+        "Услуги"
+      ]
+    },
+    {
+      "id": 11,
+      "url": "/photos/11_2a0000018c789519.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018c789519f4f2302e84a7dfeb9caa/XXXL",
+      "category": "interior",
+      "alt": "Интерьер",
+      "caption": "Интерьер",
+      "tall": true,
+      "tags": [
+        "Внутри"
+      ]
+    },
+    {
+      "id": 12,
+      "url": "/photos/12_2a0000018c78951c.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/11421964/2a0000018c78951c6daade78a764b3a2bb92/XXXL",
+      "category": "interior",
+      "alt": "Интерьер",
+      "caption": "Интерьер",
+      "tall": true,
+      "tags": [
+        "Внутри"
+      ]
+    },
+    {
+      "id": 13,
+      "url": "/photos/13_2a0000018c789448.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/10700095/2a0000018c78944887929ba83b661de5774b/XXXL",
+      "category": "work",
+      "alt": "Работы",
+      "caption": "Работы",
+      "tall": true,
+      "tags": [
+        "Услуги"
+      ]
+    },
+    {
+      "id": 14,
+      "url": "/photos/14_2a0000018c78951e.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/10700095/2a0000018c78951eb131c97700ddf33554bc/XXXL",
+      "category": "interior",
+      "alt": "Интерьер",
+      "caption": "Интерьер",
+      "tall": true,
+      "tags": [
+        "Внутри"
+      ]
+    },
+    {
+      "id": 15,
+      "url": "/photos/15_2a0000018c78951f.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/10350441/2a0000018c78951f05ac8acffcb2d75b65a6/XXXL",
+      "category": "interior",
+      "alt": "Интерьер",
+      "caption": "Интерьер",
+      "tall": true,
+      "tags": [
+        "Внутри"
+      ]
+    },
+    {
+      "id": 16,
+      "url": "/photos/16_2a0000018c78956d.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/11406796/2a0000018c78956d4ef1f2f8ff279f4f9cda/XXXL",
+      "category": "products",
+      "alt": "Товары",
+      "caption": "Товары",
+      "tall": false,
+      "tags": [
+        "Товары"
+      ]
+    },
+    {
+      "id": 17,
+      "url": "/photos/17_2a0000018c789440.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/10700956/2a0000018c789440304b1d091df83b4ef3ca/XXXL",
+      "category": "work",
+      "alt": "Работы",
+      "caption": "Работы",
+      "tall": true,
+      "tags": [
+        "Услуги"
+      ]
+    },
+    {
+      "id": 18,
+      "url": "/photos/18_2a0000018c78943e.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018c78943e8fe075e9461b24238ee1/XXXL",
+      "category": "work",
+      "alt": "Работы",
+      "caption": "Работы",
+      "tall": true,
+      "tags": [
+        "Услуги"
+      ]
+    },
+    {
+      "id": 19,
+      "url": "/photos/19_2a0000018c78956d.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/10637974/2a0000018c78956ded4f3a988fd8277bb5f9/XXXL",
+      "category": "products",
+      "alt": "Товары",
+      "caption": "Товары",
+      "tall": false,
+      "tags": [
+        "Товары"
+      ]
+    },
+    {
+      "id": 20,
+      "url": "/photos/20_16494614-2a00000.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/16494614/2a0000019c7047af7dcbc4ec8769af79854c/XXXL",
+      "category": "exterior",
+      "alt": "Снаружи",
+      "caption": "Снаружи",
+      "tall": false,
+      "tags": [
+        "Снаружи"
+      ]
+    },
+    {
+      "id": 21,
+      "url": "/photos/21_qpuTGXOYjqJ-P9TC.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/5110793/2a00000180c733004920ed5f87ef66147996/XXXL",
+      "category": "interior",
+      "alt": "Интерьер",
+      "caption": "Интерьер",
+      "tall": true,
+      "tags": [
+        "Внутри"
+      ]
+    },
+    {
+      "id": 22,
+      "url": "/photos/22_2a0000018ca63483.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/11396712/2a0000018ca63483e9aba2b91920959ec117/XXXL",
+      "category": "work",
+      "alt": "Работы",
+      "caption": "Работы",
+      "tall": true,
+      "tags": [
+        "Услуги"
+      ]
+    },
+    {
+      "id": 23,
+      "url": "/photos/23_16299341-2a00000.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/16299341/2a000001996ab31646a175cdd0d31f9eb50f/XXXL",
+      "category": "exterior",
+      "alt": "Снаружи",
+      "caption": "Снаружи",
+      "tall": false,
+      "tags": [
+        "Снаружи"
+      ]
+    },
+    {
+      "id": 24,
+      "url": "/photos/24_15053227-2a00000.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/15053227/2a0000019576b445b1518034006d1c0529e9/XXXL",
+      "category": "entrance",
+      "alt": "Вход",
+      "caption": "Вход",
+      "tall": false,
+      "tags": [
+        "Вход"
+      ]
+    },
+    {
+      "id": 25,
+      "url": "/photos/25_13220791-2a00000.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/13220791/2a00000195774374c9d65b0a5db64bf2e26e/XXXL",
+      "category": "exterior",
+      "alt": "Снаружи",
+      "caption": "Снаружи",
+      "tall": false,
+      "tags": [
+        "Снаружи"
+      ]
+    },
+    {
+      "id": 26,
+      "url": "/photos/26_17700564-2a00000.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/17700564/2a0000019c6fce107619f66c8d7e6bcbc0ad/XXXL",
+      "category": "entrance",
+      "alt": "Вход",
+      "caption": "Вход",
+      "tall": false,
+      "tags": [
+        "Вход"
+      ]
+    },
+    {
+      "id": 27,
+      "url": "/photos/27_20185783_2a00000.jpg",
+      "source_url": "https://avatars.mds.yandex.net/get-altay/20185783/2a0000019cc17bc9cb96af267b6fe37cb5ac/XXXL",
+      "category": "exterior",
+      "alt": "Снаружи",
+      "caption": "Снаружи",
+      "tall": false,
+      "tags": [
+        "Панорама"
+      ]
+    }
+  ],
+  "hero_image": "/photos/08_2a0000018c78951b.jpg",
+  "why_image": "/photos/01_2a0000018c78942a.jpg",
+  "reviews": [
+    {
+      "id": "NHxbjk1NqFP5j-q3pbY4WvWOuIhZ4NI50",
+      "name": "Денис Ш.",
+      "rating": 5,
+      "text": "Ренат отличный мастер! Делает стрижку быстро и качественно. Сригусь у него уже лет 7, ещё когда он был барбером в BoyCat, теперь хожу в RAFT, хоть теперь для меня это и не близко, но качество работы мастера и атмосфера полность оправдывают цену! Приятно видеть, как такие мастера, как Ренат, растят уже собственное дело! Успехов ему и ни на кого его не променяю))",
+      "aspect": "Мастера",
+      "response": "Спасибо за такой отзыв",
+      "updated_at": "2024-01-31T17:16:59.888Z",
+      "avatar": "avatars/c34jfx48cd77ummn30pnjz44rg.jpg"
+    },
+    {
+      "id": "C8pu2WfNiJvEWlRREZzkwDtbCmN0SSt",
+      "name": "Залина Амирханова",
+      "rating": 5,
+      "text": "Замечательный, мастер! Профессионал своего дела. Наша первая салонная стрижка прошла именно у него! Ходим, уже не первый раз. Несмотря на неусидчивость моего сына, подстригает быстро и качественно! Всем советую! Спасибо за стрижку, Ренат!",
+      "aspect": "Персонал",
+      "response": "Благодарим за ваш отзыв",
+      "updated_at": "2024-01-22T14:15:49.398Z",
+      "avatar": "avatars/55mt28vjhqq8pw3f7u1pzkq0qr.jpg"
+    },
+    {
+      "id": "hm6Cs2TXu4bCo1UHw_Bey06zfufKj1V8",
+      "name": "Кирилл Романовский",
+      "rating": 5,
+      "text": "Пришёл сюда за исправлением стрижки после одного самого известного в Екб барбершопа. Ренат услышал меня и понял, смог не только исправить ситуацию, но и сделать выдающуюся стрижку. После этой стрижки вся моя жизнь изменилась. Карьера пошла в гору, купил два красных порше и домик в Польше. Рекомендую",
+      "aspect": "Обслуживание",
+      "response": "Спасибо за оценку\n Будем рады вас видеть снова! ",
+      "updated_at": "2023-12-24T08:51:31.946Z",
+      "avatar": "avatars/xju56q9tg1nbmcd1b8arremaf4.jpg"
+    },
+    {
+      "id": "9yB8lklbOLCf2hXRbcOdSATDPHBkKtbZL",
+      "name": "Сава Мокрушин",
+      "rating": 5,
+      "text": "Отличное место, радушно встретили, качество оказанной услуги на 5 из 5, советую каждому кто ценит качество!!! Рекомендую!",
+      "aspect": "Барберы",
+      "response": null,
+      "updated_at": "2026-01-13T10:56:16.525Z",
+      "avatar": "avatars/3wm8khng0frggppj0myqqy7gf4.png"
+    },
+    {
+      "id": "M-PK3dcCCFLa9KSC82Ac6nfbP5bpn8",
+      "name": "Алексей Э.",
+      "rating": 5,
+      "text": "Стригусь у мастера Рената 3 или 4й год. Всё более чем устраивает! Уже после первого посещение не нужно было объяснять как надо чтобы было, всё помнит, знает, делает четко. Бороду доверяю только ему!",
+      "aspect": "Барберы",
+      "response": null,
+      "updated_at": "2024-03-03T17:48:57.488Z",
+      "avatar": "avatars/2p4wpnqwzkrnfdnd0xpyedxj7g.jpg"
+    },
+    {
+      "id": "NFWqeQ3BJvBX8UYTnXWEFWNwTvUuhl",
+      "name": "Максим",
+      "rating": 5,
+      "text": "Ренат, профессионал своего дела! Всегда качественные и модные стрижки! Посещаю барбершоп Raft уже второй год. Всегда на высоте.",
+      "aspect": "Барберы",
+      "response": "Спасибо за оценку",
+      "updated_at": "2024-07-10T11:14:03.301Z",
+      "avatar": "avatars/ub5gyqyygnwf84q5umgqh7pbur.jpg"
+    },
+    {
+      "id": "wbhk_I6ZxiHF01hOljVkD51u4L7TOTw",
+      "name": "Константин Г.",
+      "rating": 5,
+      "text": "Ренат большой молодец! \nС 2018 года стригусь только у него, индивиудльный подход, дружеская атмосфера! Ни на кого не променяю))",
+      "aspect": "Барберы",
+      "response": "Благодарим за ваш отзыв",
+      "updated_at": "2024-01-18T10:10:53.870Z",
+      "avatar": "avatars/zv7cmehaddb0zh9v25jerb2wr4.jpg"
+    },
+    {
+      "id": "OrGztWRJyhx_qQJ3SRqjjlfQaRb9Wz",
+      "name": "Сергей Тронин",
+      "rating": 5,
+      "text": "Опытный мастер, всегда делает качественно!\nДо этого перепробовал множество барберов, наконец-то нашел своего специалиста.",
+      "aspect": "Барберы",
+      "response": "Спасибо за такой отзыв",
+      "updated_at": "2024-06-08T13:30:02.721Z",
+      "avatar": "avatars/yn2j8x9hrvd1nh40jxym03tptw.png"
+    },
+    {
+      "id": "jLZ43LPmyc9iHZtRcW3vNGiTs7O2Z9ORF",
+      "name": "Дмитрий Арестов",
+      "rating": 5,
+      "text": "Рекомендую тем кто хочет получить неизменное качество и крутого мастера! \nСкоро будет 6!!! лет как мы с Ренатом сотрудничаем. Крутяк!",
+      "aspect": "Барберы",
+      "response": null,
+      "updated_at": "2024-01-31T11:33:03.321Z",
+      "avatar": "avatars/r88metpgvuj2b5q7tz6d2jjnd4.jpg"
+    },
+    {
+      "id": "_cXQ2ss1B9BvRkk9Jq3ZKannXhPzwxPC",
+      "name": "Павел Л.",
+      "rating": 5,
+      "text": "Ренат большой профессионал своего дела. За достойной мужской стрижкой точно к нему!",
+      "aspect": "Барберы",
+      "response": "Благодарим за ваш отзыв",
+      "updated_at": "2023-12-26T07:35:42.856Z",
+      "avatar": "avatars/zdcam5tnjzpkpxhgqun6b4gkf0.jpg"
+    },
+    {
+      "id": "2M6fBRVqXQc7OcKVFkbQD-8oc2pljnC",
+      "name": "Denis Latypov",
+      "rating": 5,
+      "text": "Супер мастер! Спасибо большое! Все всегда на высоте! Рекомендую!",
+      "aspect": "Барберы",
+      "response": null,
+      "updated_at": "2024-08-09T17:08:40.974Z",
+      "avatar": "avatars/tf0hyqud1kby4rmz1r4u8vk1kc.jpg"
+    },
+    {
+      "id": "qgQ8ES8eXxfS3c5MX2jc9LI2CGjSp4X",
+      "name": "GL",
+      "rating": 5,
+      "text": "Отличный барбершоп! Барбер как всегда со своим мастерством на высоте.",
+      "aspect": "Барберы",
+      "response": "Спасибо за приятный отзыв",
+      "updated_at": "2022-05-15T09:45:31.942Z",
+      "avatar": "avatars/q00yjbbzygfh6urg1wmen1472r.jpg"
+    },
+    {
+      "id": "aaKHcPXEJsWSwa9DsUZcNjZO9Va4oIwQ",
+      "name": "Вячеслав Ф.",
+      "rating": 5,
+      "text": "Отличное место, хороший барбер.",
+      "aspect": "Барберы",
+      "response": "Благодарим за ваш отзыв",
+      "updated_at": "2024-01-18T13:00:11.067Z",
+      "avatar": "avatars/krzq6jqz9pg0nt1kukeau2gqxr.jpg"
+    },
+    {
+      "id": "Pn4ZvD_sdRI9M7IOf-2ItTH_voMGX8",
+      "name": "Павел П.",
+      "rating": 5,
+      "text": "Ренат - мастер своего дела! Рекомендую!",
+      "aspect": "Барберы",
+      "response": "Спасибо за оценку",
+      "updated_at": "2022-07-03T12:42:28.501Z",
+      "avatar": null
+    },
+    {
+      "id": "oErfYjTlMJGNwHFzQaIXxuKzqEuzsg4k",
+      "name": "Евгений",
+      "rating": 3,
+      "text": "Дороговато...",
+      "aspect": "Барберы",
+      "response": null,
+      "updated_at": "2024-09-01T14:54:21.707Z",
+      "avatar": "avatars/2w1dkpd0fhtufju54ykut409b4.jpg"
+    },
+    {
+      "id": "u6vMmCWhx2qCK6FpQvKdWxnAKmhVCM",
+      "name": "Шпак",
+      "rating": 5,
+      "text": "Все отлично, как всегда!\nРекомендую!",
+      "aspect": "Барберы",
+      "response": "Спасибо за ваш отзыв! \nБудем рады вас видеть снова! ",
+      "updated_at": "2024-02-29T09:30:17.619Z",
+      "avatar": null
+    },
+    {
+      "id": "DH8rONMdOH_di9pkkpHpOLDgA0mJwaK2",
+      "name": "Инкогнито 8288",
+      "rating": 5,
+      "text": "Профессионал!",
+      "aspect": "Барберы",
+      "response": "Спасибо за ваш отзыв",
+      "updated_at": "2023-12-12T17:42:23.631Z",
+      "avatar": "avatars/78enkrc7c82p70enfc7vqv220g.jpg"
+    },
+    {
+      "id": "6DGka5g4TWREkSGi9KIeMNtNpnLSAI7d",
+      "name": "Mr Spaceman",
+      "rating": 5,
+      "text": "Лучший",
+      "aspect": "Барберы",
+      "response": null,
+      "updated_at": "2022-11-01T14:44:25.629Z",
+      "avatar": null
+    }
+  ]
+}

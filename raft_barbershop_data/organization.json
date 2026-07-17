@@ -1,0 +1,1511 @@
+{
+  "source_url": "https://yandex.ru/maps/org/r_a_f_t/84586990378/",
+  "parsed_at": "2026-07-17T18:24:56.909845+00:00",
+  "id": "84586990378",
+  "seoname": "r_a_f_t",
+  "title": "R. A. F. T",
+  "short_title": "R. A. F. T",
+  "status": "open",
+  "category": {
+    "id": "239628851835",
+    "name": "Барбершоп",
+    "class": "hairdressers",
+    "seoname": "barber_shop",
+    "pluralName": "Барбершопы"
+  },
+  "categories": [
+    {
+      "id": "239628851835",
+      "name": "Барбершоп",
+      "class": "hairdressers",
+      "seoname": "barber_shop",
+      "pluralName": "Барбершопы"
+    }
+  ],
+  "description_short": "ул. Бажова, 193, Екатеринбург",
+  "rating": {
+    "value": 4.7,
+    "rating_count": 26,
+    "review_count": 18
+  },
+  "contacts": {
+    "phones": [
+      {
+        "number": "+7 (922) 212-90-20",
+        "type": "phone",
+        "value": "+79222129020"
+      }
+    ],
+    "links": [],
+    "email": null,
+    "website": null,
+    "social": []
+  },
+  "address": {
+    "short": "ул. Бажова, 193, Екатеринбург",
+    "full": "Свердловская область, Екатеринбург, улица Бажова, 193",
+    "postal_code": "620075",
+    "country": "Россия",
+    "composite": {
+      "country": "Россия",
+      "area": "муниципальное образование Екатеринбург",
+      "locality": "Екатеринбург",
+      "street": "улица Бажова",
+      "house": "193"
+    },
+    "coordinates": {
+      "lon": 60.632383,
+      "lat": 56.827489
+    },
+    "entrances": [
+      {
+        "coordinates": [
+          60.63267,
+          56.827163
+        ],
+        "azimuth": 85.43818734340903,
+        "tilt": 0
+      },
+      {
+        "coordinates": [
+          60.63237293,
+          56.82749398
+        ],
+        "azimuth": 261.8705650577473,
+        "tilt": 0
+      }
+    ],
+    "geo_where": {
+      "id": "56093926",
+      "seoname": "ulitsa_bazhova_193",
+      "kind": "house",
+      "coordinates": [
+        60.63267,
+        56.827163
+      ],
+      "displayCoordinates": [
+        60.63267,
+        56.827163
+      ],
+      "encodedCoordinates": "YkkYcARiT0IHQFtsfXRzdn1lZw=="
+    }
+  },
+  "working_hours": {
+    "text": "вт,ср,пт,сб,вс 11:00–21:00",
+    "current_status": {
+      "isOpenNow": false,
+      "text": "Закрыто до завтра",
+      "shortText": "Закрыто до завтра",
+      "tag": []
+    },
+    "schedule": [
+      {
+        "day": "понедельник",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "вторник",
+        "closed": true,
+        "hours": null
+      },
+      {
+        "day": "среда",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "четверг",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "пятница",
+        "closed": true,
+        "hours": null
+      },
+      {
+        "day": "суббота",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      {
+        "day": "воскресенье",
+        "closed": false,
+        "hours": [
+          {
+            "from": "11:00",
+            "to": "21:00"
+          }
+        ]
+      }
+    ],
+    "timezone_offset_seconds": 18000
+  },
+  "features": [
+    {
+      "id": "man_haircut",
+      "name": "цена мужской стрижки",
+      "type": "text",
+      "value": "1500–2700 ₽"
+    },
+    {
+      "id": "street_entrance",
+      "name": "street_entrance",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "id": "payment_method",
+      "name": "способ оплаты",
+      "type": "enum",
+      "value": [
+        "дисконтная система скидок",
+        "наличными",
+        "банковским переводом",
+        "онлайн",
+        "СБП"
+      ]
+    },
+    {
+      "id": "promotions",
+      "name": "акции",
+      "type": "enum",
+      "value": [
+        "скидки",
+        "акции",
+        "спецпредложения",
+        "бонусы",
+        "подарки"
+      ]
+    },
+    {
+      "id": "wi_fi",
+      "name": "Wi-Fi",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "id": "car_park",
+      "name": "парковка",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "id": "gift_certificate",
+      "name": "подарочный сертификат",
+      "type": "bool",
+      "value": true
+    }
+  ],
+  "feature_groups": [
+    {
+      "name": "Цены",
+      "featureIds": [
+        "man_haircut"
+      ]
+    },
+    {
+      "name": "Общая информация",
+      "featureIds": [
+        "payment_method",
+        "gift_certificate",
+        "promotions",
+        "wi_fi",
+        "car_park"
+      ]
+    },
+    {
+      "name": "Доступность",
+      "featureIds": [
+        "parking_disabled"
+      ]
+    }
+  ],
+  "metro": [
+    {
+      "id": "station__9765105",
+      "name": "Геологическая",
+      "distance": "2,24 км",
+      "distanceValue": 2237.13,
+      "coordinates": [
+        60.6037824,
+        56.826463697
+      ],
+      "type": "metro",
+      "color": "#68b668"
+    },
+    {
+      "id": "station__9765108",
+      "name": "Площадь 1905 года",
+      "distance": "3,1 км",
+      "distanceValue": 3053.8,
+      "coordinates": [
+        60.59969742,
+        56.836282982
+      ],
+      "type": "metro",
+      "color": "#68b668"
+    },
+    {
+      "id": "station__9882197",
+      "name": "Чкаловская",
+      "distance": "3,4 км",
+      "distanceValue": 3383.61,
+      "coordinates": [
+        60.610134334,
+        56.808932303
+      ],
+      "type": "metro",
+      "color": "#68b668"
+    }
+  ],
+  "stops": [
+    {
+      "id": "stop__9811090",
+      "name": "Сибирский тракт",
+      "distance": "420 м",
+      "distanceValue": 417.725,
+      "coordinates": [
+        60.636880198,
+        56.826147728
+      ],
+      "type": "common"
+    },
+    {
+      "id": "stop__9811092",
+      "name": "Шарташский рынок",
+      "distance": "450 м",
+      "distanceValue": 451.312,
+      "coordinates": [
+        60.636889146,
+        56.829199909
+      ],
+      "type": "common"
+    },
+    {
+      "id": "stop__9810415",
+      "name": "Улица Декабристов",
+      "distance": "590 м",
+      "distanceValue": 585.257,
+      "coordinates": [
+        60.626521055,
+        56.824642439
+      ],
+      "type": "common"
+    },
+    {
+      "id": "station__lh_9607458",
+      "name": "Шарташ",
+      "distance": "1,13 км",
+      "distanceValue": 1132.37,
+      "coordinates": [
+        60.6465620013,
+        56.830154236
+      ],
+      "type": "common"
+    }
+  ],
+  "panorama": {
+    "id": "1435427414_661707895_23_1726296374",
+    "direction": [
+      29.4,
+      10
+    ],
+    "point": {
+      "type": "Point",
+      "coordinates": [
+        60.632272,
+        56.827381
+      ]
+    },
+    "preview_url": "https://static-pano.maps.yandex.ru/v1/?panoid=1435427414_661707895_23_1726296374&size=500%2C240&azimuth=29.4&tilt=10&api_key=maps&signature=20wxgJxUBYsmzcUTV1BI0PWN361uZwggPjnSeQQ8cMw=",
+    "local_path": "other/panorama_preview.jpg"
+  },
+  "logo": {
+    "id": "2a0000018c788f4446ecb9628f1610979fde",
+    "url_template": "https://avatars.mds.yandex.net/get-altay/10637174/2a0000018c788f4446ecb9628f1610979fde/%s",
+    "tags": [
+      "owner_photo"
+    ],
+    "local_path": "other/logo.jpg"
+  },
+  "photos_count": 27,
+  "photos": [
+    {
+      "index": 1,
+      "id": "2a0000018c78942a69ff1d607045c586d847",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c78942a69ff1d607045c586d847",
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10702157/2a0000018c78942a69ff1d607045c586d847/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/10702157/2a0000018c78942a69ff1d607045c586d847/{size}",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/01_2a0000018c78942a.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/10702157/2a0000018c78942a69ff1d607045c586d847/XXXL"
+    },
+    {
+      "index": 2,
+      "id": "2a0000018c78942dcc85008a022c9fd517e2",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c78942dcc85008a022c9fd517e2",
+      "width": 1280,
+      "height": 1279,
+      "url": "https://avatars.mds.yandex.net/get-altay/10814540/2a0000018c78942dcc85008a022c9fd517e2/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/10814540/2a0000018c78942dcc85008a022c9fd517e2/{size}",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/02_2a0000018c78942d.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/10814540/2a0000018c78942dcc85008a022c9fd517e2/XXXL"
+    },
+    {
+      "index": 3,
+      "id": "2a0000018c7894bd7a4bc98fd838bbb61e0e",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c7894bd7a4bc98fd838bbb61e0e",
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/1439437/2a0000018c7894bd7a4bc98fd838bbb61e0e/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/1439437/2a0000018c7894bd7a4bc98fd838bbb61e0e/{size}",
+      "tags": [
+        {
+          "id": "Enter",
+          "name": "Вход"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:06Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/03_2a0000018c7894bd.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/1439437/2a0000018c7894bd7a4bc98fd838bbb61e0e/XXXL"
+    },
+    {
+      "index": 4,
+      "id": "2a0000018c789449c29a9cb7c0e2c41d4bde",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c789449c29a9cb7c0e2c41d4bde",
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018c789449c29a9cb7c0e2c41d4bde/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018c789449c29a9cb7c0e2c41d4bde/{size}",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/04_2a0000018c789449.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018c789449c29a9cb7c0e2c41d4bde/XXXL"
+    },
+    {
+      "index": 5,
+      "id": "2a0000018c7894389cf52e4ea99fa608c928",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c7894389cf52e4ea99fa608c928",
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11396712/2a0000018c7894389cf52e4ea99fa608c928/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/11396712/2a0000018c7894389cf52e4ea99fa608c928/{size}",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/05_2a0000018c789438.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/11396712/2a0000018c7894389cf52e4ea99fa608c928/XXXL"
+    },
+    {
+      "index": 6,
+      "id": "2a0000018c789438920754a8570f6b9ab638",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c789438920754a8570f6b9ab638",
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10812438/2a0000018c789438920754a8570f6b9ab638/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/10812438/2a0000018c789438920754a8570f6b9ab638/{size}",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/06_2a0000018c789438.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/10812438/2a0000018c789438920754a8570f6b9ab638/XXXL"
+    },
+    {
+      "index": 7,
+      "id": "2a0000018c78944a8a7e4f4bfbefcd02e92a",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c78944a8a7e4f4bfbefcd02e92a",
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11004775/2a0000018c78944a8a7e4f4bfbefcd02e92a/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/11004775/2a0000018c78944a8a7e4f4bfbefcd02e92a/{size}",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/07_2a0000018c78944a.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/11004775/2a0000018c78944a8a7e4f4bfbefcd02e92a/XXXL"
+    },
+    {
+      "index": 8,
+      "id": "2a0000018c78951ba0fe9b13810827cd4f58",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c78951ba0fe9b13810827cd4f58",
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10648814/2a0000018c78951ba0fe9b13810827cd4f58/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/10648814/2a0000018c78951ba0fe9b13810827cd4f58/{size}",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:31Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/08_2a0000018c78951b.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/10648814/2a0000018c78951ba0fe9b13810827cd4f58/XXXL"
+    },
+    {
+      "index": 9,
+      "id": "2a0000018c7894c01844cb2d331acf0e9ef8",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c7894c01844cb2d331acf0e9ef8",
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11244149/2a0000018c7894c01844cb2d331acf0e9ef8/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/11244149/2a0000018c7894c01844cb2d331acf0e9ef8/{size}",
+      "tags": [
+        {
+          "id": "Enter",
+          "name": "Вход"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:06Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/09_2a0000018c7894c0.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/11244149/2a0000018c7894c01844cb2d331acf0e9ef8/XXXL"
+    },
+    {
+      "index": 10,
+      "id": "2a0000018c7894498743310d4e20f3c95361",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c7894498743310d4e20f3c95361",
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018c7894498743310d4e20f3c95361/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018c7894498743310d4e20f3c95361/{size}",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/10_2a0000018c789449.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018c7894498743310d4e20f3c95361/XXXL"
+    },
+    {
+      "index": 11,
+      "id": "2a0000018c789519f4f2302e84a7dfeb9caa",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c789519f4f2302e84a7dfeb9caa",
+      "width": 1029,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018c789519f4f2302e84a7dfeb9caa/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018c789519f4f2302e84a7dfeb9caa/{size}",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:31Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/11_2a0000018c789519.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018c789519f4f2302e84a7dfeb9caa/XXXL"
+    },
+    {
+      "index": 12,
+      "id": "2a0000018c78951c6daade78a764b3a2bb92",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c78951c6daade78a764b3a2bb92",
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11421964/2a0000018c78951c6daade78a764b3a2bb92/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/11421964/2a0000018c78951c6daade78a764b3a2bb92/{size}",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:31Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/12_2a0000018c78951c.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/11421964/2a0000018c78951c6daade78a764b3a2bb92/XXXL"
+    },
+    {
+      "index": 13,
+      "id": "2a0000018c78944887929ba83b661de5774b",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c78944887929ba83b661de5774b",
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10700095/2a0000018c78944887929ba83b661de5774b/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/10700095/2a0000018c78944887929ba83b661de5774b/{size}",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/13_2a0000018c789448.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/10700095/2a0000018c78944887929ba83b661de5774b/XXXL"
+    },
+    {
+      "index": 14,
+      "id": "2a0000018c78951eb131c97700ddf33554bc",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c78951eb131c97700ddf33554bc",
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10700095/2a0000018c78951eb131c97700ddf33554bc/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/10700095/2a0000018c78951eb131c97700ddf33554bc/{size}",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:31Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/14_2a0000018c78951e.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/10700095/2a0000018c78951eb131c97700ddf33554bc/XXXL"
+    },
+    {
+      "index": 15,
+      "id": "2a0000018c78951f05ac8acffcb2d75b65a6",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c78951f05ac8acffcb2d75b65a6",
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10350441/2a0000018c78951f05ac8acffcb2d75b65a6/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/10350441/2a0000018c78951f05ac8acffcb2d75b65a6/{size}",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:31Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/15_2a0000018c78951f.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/10350441/2a0000018c78951f05ac8acffcb2d75b65a6/XXXL"
+    },
+    {
+      "index": 16,
+      "id": "2a0000018c78956d4ef1f2f8ff279f4f9cda",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c78956d4ef1f2f8ff279f4f9cda",
+      "width": 1280,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11406796/2a0000018c78956d4ef1f2f8ff279f4f9cda/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/11406796/2a0000018c78956d4ef1f2f8ff279f4f9cda/{size}",
+      "tags": [
+        {
+          "id": "Goods",
+          "name": "Товары"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:51Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/16_2a0000018c78956d.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/11406796/2a0000018c78956d4ef1f2f8ff279f4f9cda/XXXL"
+    },
+    {
+      "index": 17,
+      "id": "2a0000018c789440304b1d091df83b4ef3ca",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c789440304b1d091df83b4ef3ca",
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10700956/2a0000018c789440304b1d091df83b4ef3ca/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/10700956/2a0000018c789440304b1d091df83b4ef3ca/{size}",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/17_2a0000018c789440.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/10700956/2a0000018c789440304b1d091df83b4ef3ca/XXXL"
+    },
+    {
+      "index": 18,
+      "id": "2a0000018c78943e8fe075e9461b24238ee1",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c78943e8fe075e9461b24238ee1",
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018c78943e8fe075e9461b24238ee1/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018c78943e8fe075e9461b24238ee1/{size}",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/18_2a0000018c78943e.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018c78943e8fe075e9461b24238ee1/XXXL"
+    },
+    {
+      "index": 19,
+      "id": "2a0000018c78956ded4f3a988fd8277bb5f9",
+      "full_id": "urn:yandex:sprav:photo:2a0000018c78956ded4f3a988fd8277bb5f9",
+      "width": 1280,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10637974/2a0000018c78956ded4f3a988fd8277bb5f9/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/10637974/2a0000018c78956ded4f3a988fd8277bb5f9/{size}",
+      "tags": [
+        {
+          "id": "Goods",
+          "name": "Товары"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:51Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/19_2a0000018c78956d.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/10637974/2a0000018c78956ded4f3a988fd8277bb5f9/XXXL"
+    },
+    {
+      "index": 20,
+      "id": "16494614-2a0000019c7047af7dcbc4ec8769af79854c",
+      "full_id": "urn:yandex:sprav:photo:16494614-2a0000019c7047af7dcbc4ec8769af79854c",
+      "width": 960,
+      "height": 720,
+      "url": "https://avatars.mds.yandex.net/get-altay/16494614/2a0000019c7047af7dcbc4ec8769af79854c/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/16494614/2a0000019c7047af7dcbc4ec8769af79854c/{size}",
+      "tags": [
+        {
+          "id": "Exterior",
+          "name": "Снаружи"
+        }
+      ],
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2026-02-18T00:13:45Z"
+      },
+      "created": null,
+      "local_path": "photos/20_16494614-2a00000.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/16494614/2a0000019c7047af7dcbc4ec8769af79854c/XXXL"
+    },
+    {
+      "index": 21,
+      "id": "qpuTGXOYjqJ-P9TC4tPThTZlUJBYYM",
+      "full_id": "urn:yandex:sprav:photo:qpuTGXOYjqJ-P9TC4tPThTZlUJBYYM",
+      "width": 900,
+      "height": 1125,
+      "url": "https://avatars.mds.yandex.net/get-altay/5110793/2a00000180c733004920ed5f87ef66147996/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/5110793/2a00000180c733004920ed5f87ef66147996/{size}",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "copyright": {
+        "name": "GL",
+        "updateTime": "2022-05-15T10:10:50Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/61207/88pcWTBHOmn1praLQniUAwE2M-1/{size}",
+        "publicId": "q00yjbbzygfh6urg1wmen1472r"
+      },
+      "created": null,
+      "local_path": "photos/21_qpuTGXOYjqJ-P9TC.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/5110793/2a00000180c733004920ed5f87ef66147996/XXXL"
+    },
+    {
+      "index": 22,
+      "id": "2a0000018ca63483e9aba2b91920959ec117",
+      "full_id": "urn:yandex:sprav:photo:2a0000018ca63483e9aba2b91920959ec117",
+      "width": 897,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11396712/2a0000018ca63483e9aba2b91920959ec117/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/11396712/2a0000018ca63483e9aba2b91920959ec117/{size}",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-26T12:58:30Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      },
+      "created": null,
+      "local_path": "photos/22_2a0000018ca63483.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/11396712/2a0000018ca63483e9aba2b91920959ec117/XXXL"
+    },
+    {
+      "index": 23,
+      "id": "16299341-2a000001996ab31646a175cdd0d31f9eb50f",
+      "full_id": "urn:yandex:sprav:photo:16299341-2a000001996ab31646a175cdd0d31f9eb50f",
+      "width": 960,
+      "height": 720,
+      "url": "https://avatars.mds.yandex.net/get-altay/16299341/2a000001996ab31646a175cdd0d31f9eb50f/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/16299341/2a000001996ab31646a175cdd0d31f9eb50f/{size}",
+      "tags": [
+        {
+          "id": "Exterior",
+          "name": "Снаружи"
+        }
+      ],
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2025-09-20T18:42:50Z"
+      },
+      "created": null,
+      "local_path": "photos/23_16299341-2a00000.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/16299341/2a000001996ab31646a175cdd0d31f9eb50f/XXXL"
+    },
+    {
+      "index": 24,
+      "id": "15053227-2a0000019576b445b1518034006d1c0529e9",
+      "full_id": "urn:yandex:sprav:photo:15053227-2a0000019576b445b1518034006d1c0529e9",
+      "width": 1280,
+      "height": 960,
+      "url": "https://avatars.mds.yandex.net/get-altay/15053227/2a0000019576b445b1518034006d1c0529e9/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/15053227/2a0000019576b445b1518034006d1c0529e9/{size}",
+      "tags": [
+        {
+          "id": "Enter",
+          "name": "Вход"
+        }
+      ],
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2025-03-04T16:37:23Z"
+      },
+      "created": null,
+      "local_path": "photos/24_15053227-2a00000.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/15053227/2a0000019576b445b1518034006d1c0529e9/XXXL"
+    },
+    {
+      "index": 25,
+      "id": "13220791-2a00000195774374c9d65b0a5db64bf2e26e",
+      "full_id": "urn:yandex:sprav:photo:13220791-2a00000195774374c9d65b0a5db64bf2e26e",
+      "width": 1280,
+      "height": 960,
+      "url": "https://avatars.mds.yandex.net/get-altay/13220791/2a00000195774374c9d65b0a5db64bf2e26e/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/13220791/2a00000195774374c9d65b0a5db64bf2e26e/{size}",
+      "tags": [
+        {
+          "id": "Exterior",
+          "name": "Снаружи"
+        }
+      ],
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2025-03-04T16:37:23Z"
+      },
+      "created": null,
+      "local_path": "photos/25_13220791-2a00000.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/13220791/2a00000195774374c9d65b0a5db64bf2e26e/XXXL"
+    },
+    {
+      "index": 26,
+      "id": "17700564-2a0000019c6fce107619f66c8d7e6bcbc0ad",
+      "full_id": "urn:yandex:sprav:photo:17700564-2a0000019c6fce107619f66c8d7e6bcbc0ad",
+      "width": 960,
+      "height": 720,
+      "url": "https://avatars.mds.yandex.net/get-altay/17700564/2a0000019c6fce107619f66c8d7e6bcbc0ad/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/17700564/2a0000019c6fce107619f66c8d7e6bcbc0ad/{size}",
+      "tags": [
+        {
+          "id": "Enter",
+          "name": "Вход"
+        }
+      ],
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2026-02-18T00:13:45Z"
+      },
+      "created": null,
+      "local_path": "photos/26_17700564-2a00000.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/17700564/2a0000019c6fce107619f66c8d7e6bcbc0ad/XXXL"
+    },
+    {
+      "index": 27,
+      "id": "20185783_2a0000019cc17bc9cb96af267b6fe37cb5ac",
+      "full_id": "urn:yandex:sprav:photo:20185783_2a0000019cc17bc9cb96af267b6fe37cb5ac",
+      "width": 1280,
+      "height": 750,
+      "url": "https://avatars.mds.yandex.net/get-altay/20185783/2a0000019cc17bc9cb96af267b6fe37cb5ac/XXXL",
+      "url_template": "https://avatars.mds.yandex.net/get-altay/20185783/2a0000019cc17bc9cb96af267b6fe37cb5ac/{size}",
+      "tags": [
+        {
+          "id": "Panorama",
+          "name": "Панорама"
+        }
+      ],
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2026-03-06T04:50:42Z"
+      },
+      "created": null,
+      "local_path": "photos/27_20185783_2a00000.jpg",
+      "downloaded_url": "https://avatars.mds.yandex.net/get-altay/20185783/2a0000019cc17bc9cb96af267b6fe37cb5ac/XXXL"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "NHxbjk1NqFP5j-q3pbY4WvWOuIhZ4NI50",
+      "rating": 5,
+      "text": "Ренат отличный мастер! Делает стрижку быстро и качественно. Сригусь у него уже лет 7, ещё когда он был барбером в BoyCat, теперь хожу в RAFT, хоть теперь для меня это и не близко, но качество работы мастера и атмосфера полность оправдывают цену! Приятно видеть, как такие мастера, как Ренат, растят уже собственное дело! Успехов ему и ни на кого его не променяю)) ",
+      "language": "ru",
+      "updated_at": "2024-01-31T17:16:59.888Z",
+      "pinned": false,
+      "likes": 2,
+      "dislikes": 0,
+      "author": {
+        "name": "Денис Ш.",
+        "public_id": "c34jfx48cd77ummn30pnjz44rg",
+        "level": "Знаток города 3 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/25358/0d-5/{size}",
+        "avatar_local_path": "avatars/c34jfx48cd77ummn30pnjz44rg.jpg"
+      },
+      "business_reply": {
+        "text": "Спасибо за такой отзыв",
+        "updated_at": "2024-02-02T13:33:03.022Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "C8pu2WfNiJvEWlRREZzkwDtbCmN0SSt",
+      "rating": 5,
+      "text": "Замечательный, мастер! Профессионал своего дела. Наша первая салонная стрижка прошла именно у него! Ходим, уже не первый раз. Несмотря на неусидчивость моего сына, подстригает быстро и качественно! Всем советую! Спасибо за стрижку, Ренат! ",
+      "language": "ru",
+      "updated_at": "2024-01-22T14:15:49.398Z",
+      "pinned": false,
+      "likes": 1,
+      "dislikes": 0,
+      "author": {
+        "name": "Залина Амирханова",
+        "public_id": "55mt28vjhqq8pw3f7u1pzkq0qr",
+        "level": "Знаток города 2 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/64336/0f-8/{size}",
+        "avatar_local_path": "avatars/55mt28vjhqq8pw3f7u1pzkq0qr.jpg"
+      },
+      "business_reply": {
+        "text": "Благодарим за ваш отзыв",
+        "updated_at": "2024-02-02T13:32:51.560Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "hm6Cs2TXu4bCo1UHw_Bey06zfufKj1V8",
+      "rating": 5,
+      "text": "Пришёл сюда за исправлением стрижки после одного самого известного в Екб барбершопа. Ренат услышал меня и понял, смог не только исправить ситуацию, но и сделать выдающуюся стрижку. После этой стрижки вся моя жизнь изменилась. Карьера пошла в гору, купил два красных порше и домик в Польше. Рекомендую",
+      "language": "ru",
+      "updated_at": "2023-12-24T08:51:31.946Z",
+      "pinned": false,
+      "likes": 1,
+      "dislikes": 0,
+      "author": {
+        "name": "Кирилл Романовский",
+        "public_id": "xju56q9tg1nbmcd1b8arremaf4",
+        "level": "Знаток города 3 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/39803/nc5chZ8ERFH6oUT572P8wP6daY-1/{size}",
+        "avatar_local_path": "avatars/xju56q9tg1nbmcd1b8arremaf4.jpg"
+      },
+      "business_reply": {
+        "text": "Спасибо за оценку\n Будем рады вас видеть снова! ",
+        "updated_at": "2023-12-26T12:56:20.576Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "9yB8lklbOLCf2hXRbcOdSATDPHBkKtbZL",
+      "rating": 5,
+      "text": "Отличное место, радушно встретили, качество оказанной услуги на 5 из 5, советую каждому кто ценит качество!!! Рекомендую! ",
+      "language": "ru",
+      "updated_at": "2026-01-13T10:56:16.525Z",
+      "pinned": false,
+      "likes": 0,
+      "dislikes": 0,
+      "author": {
+        "name": "Сава Мокрушин",
+        "public_id": "3wm8khng0frggppj0myqqy7gf4",
+        "level": "Знаток города 4 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/57243/PO1Po88vQTVm2mKTmzfZFeDPU-1/{size}",
+        "avatar_local_path": "avatars/3wm8khng0frggppj0myqqy7gf4.png"
+      },
+      "business_reply": null,
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "M-PK3dcCCFLa9KSC82Ac6nfbP5bpn8",
+      "rating": 5,
+      "text": "Стригусь у мастера Рената 3 или 4й год. Всё более чем устраивает! Уже после первого посещение не нужно было объяснять как надо чтобы было, всё помнит, знает, делает четко. Бороду доверяю только ему!",
+      "language": "ru",
+      "updated_at": "2024-03-03T17:48:57.488Z",
+      "pinned": false,
+      "likes": 1,
+      "dislikes": 0,
+      "author": {
+        "name": "Алексей Э.",
+        "public_id": "2p4wpnqwzkrnfdnd0xpyedxj7g",
+        "level": "Знаток города 2 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/17694366/3r4MNZo49yegXs7mghQlGn3ykg-1/{size}",
+        "avatar_local_path": "avatars/2p4wpnqwzkrnfdnd0xpyedxj7g.jpg"
+      },
+      "business_reply": null,
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "NFWqeQ3BJvBX8UYTnXWEFWNwTvUuhl",
+      "rating": 5,
+      "text": "Ренат, профессионал своего дела! Всегда качественные и модные стрижки! Посещаю барбершоп Raft уже второй год. Всегда на высоте. ",
+      "language": "ru",
+      "updated_at": "2024-07-10T11:14:03.301Z",
+      "pinned": false,
+      "likes": 0,
+      "dislikes": 0,
+      "author": {
+        "name": "Максим",
+        "public_id": "ub5gyqyygnwf84q5umgqh7pbur",
+        "level": "Знаток города 4 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/59871/0k-2/{size}",
+        "avatar_local_path": "avatars/ub5gyqyygnwf84q5umgqh7pbur.jpg"
+      },
+      "business_reply": {
+        "text": "Спасибо за оценку",
+        "updated_at": "2024-07-26T06:22:46.064Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "wbhk_I6ZxiHF01hOljVkD51u4L7TOTw",
+      "rating": 5,
+      "text": "Ренат большой молодец! \nС 2018 года стригусь только у него, индивиудльный подход, дружеская атмосфера! Ни на кого не променяю))",
+      "language": "ru",
+      "updated_at": "2024-01-18T10:10:53.870Z",
+      "pinned": false,
+      "likes": 1,
+      "dislikes": 0,
+      "author": {
+        "name": "Константин Г.",
+        "public_id": "zv7cmehaddb0zh9v25jerb2wr4",
+        "level": "Знаток города 3 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/37154/0k-8/{size}",
+        "avatar_local_path": "avatars/zv7cmehaddb0zh9v25jerb2wr4.jpg"
+      },
+      "business_reply": {
+        "text": "Благодарим за ваш отзыв",
+        "updated_at": "2024-01-24T08:29:32.599Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "OrGztWRJyhx_qQJ3SRqjjlfQaRb9Wz",
+      "rating": 5,
+      "text": "Опытный мастер, всегда делает качественно!\nДо этого перепробовал множество барберов, наконец-то нашел своего специалиста.\n",
+      "language": "ru",
+      "updated_at": "2024-06-08T13:30:02.721Z",
+      "pinned": false,
+      "likes": 0,
+      "dislikes": 0,
+      "author": {
+        "name": "Сергей Тронин",
+        "public_id": "yn2j8x9hrvd1nh40jxym03tptw",
+        "level": "Знаток города 3 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/48449/enc-178c7b62902ae30ac976c721f29b471aebfd82b4c05dde31bac5532e69c38673/{size}",
+        "avatar_local_path": "avatars/yn2j8x9hrvd1nh40jxym03tptw.png"
+      },
+      "business_reply": {
+        "text": "Спасибо за такой отзыв",
+        "updated_at": "2024-07-26T06:22:48.596Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "jLZ43LPmyc9iHZtRcW3vNGiTs7O2Z9ORF",
+      "rating": 5,
+      "text": "Рекомендую тем кто хочет получить неизменное качество и крутого мастера! \nСкоро будет 6!!! лет как мы с Ренатом сотрудничаем. Крутяк!",
+      "language": "ru",
+      "updated_at": "2024-01-31T11:33:03.321Z",
+      "pinned": false,
+      "likes": 1,
+      "dislikes": 0,
+      "author": {
+        "name": "Дмитрий Арестов",
+        "public_id": "r88metpgvuj2b5q7tz6d2jjnd4",
+        "level": "Знаток города 10 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/47747/0l-1/{size}",
+        "avatar_local_path": "avatars/r88metpgvuj2b5q7tz6d2jjnd4.jpg"
+      },
+      "business_reply": null,
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "_cXQ2ss1B9BvRkk9Jq3ZKannXhPzwxPC",
+      "rating": 5,
+      "text": "Ренат большой профессионал своего дела. За достойной мужской стрижкой точно к нему!",
+      "language": "ru",
+      "updated_at": "2023-12-26T07:35:42.856Z",
+      "pinned": false,
+      "likes": 1,
+      "dislikes": 0,
+      "author": {
+        "name": "Павел Л.",
+        "public_id": "zdcam5tnjzpkpxhgqun6b4gkf0",
+        "level": "Знаток города 6 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/57243/0g-5/{size}",
+        "avatar_local_path": "avatars/zdcam5tnjzpkpxhgqun6b4gkf0.jpg"
+      },
+      "business_reply": {
+        "text": "Благодарим за ваш отзыв",
+        "updated_at": "2024-01-01T08:41:00.284Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "2M6fBRVqXQc7OcKVFkbQD-8oc2pljnC",
+      "rating": 5,
+      "text": "Супер мастер! Спасибо большое! Все всегда на высоте! Рекомендую!",
+      "language": "ru",
+      "updated_at": "2024-08-09T17:08:40.974Z",
+      "pinned": false,
+      "likes": 0,
+      "dislikes": 0,
+      "author": {
+        "name": "Denis Latypov",
+        "public_id": "tf0hyqud1kby4rmz1r4u8vk1kc",
+        "level": "Знаток города 10 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/54535/QrJs3WQd4AHiKYWn7xv8MB7g22I-1/{size}",
+        "avatar_local_path": "avatars/tf0hyqud1kby4rmz1r4u8vk1kc.jpg"
+      },
+      "business_reply": null,
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "qgQ8ES8eXxfS3c5MX2jc9LI2CGjSp4X",
+      "rating": 5,
+      "text": "Отличный барбершоп! Барбер как всегда со своим мастерством на высоте. ",
+      "language": "unknown",
+      "updated_at": "2022-05-15T09:45:31.942Z",
+      "pinned": false,
+      "likes": 1,
+      "dislikes": 0,
+      "author": {
+        "name": "GL",
+        "public_id": "q00yjbbzygfh6urg1wmen1472r",
+        "level": "Знаток города 4 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/61207/88pcWTBHOmn1praLQniUAwE2M-1/{size}",
+        "avatar_local_path": "avatars/q00yjbbzygfh6urg1wmen1472r.jpg"
+      },
+      "business_reply": {
+        "text": "Спасибо за приятный отзыв",
+        "updated_at": "2024-01-24T08:29:49.111Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "aaKHcPXEJsWSwa9DsUZcNjZO9Va4oIwQ",
+      "rating": 5,
+      "text": "Отличное место, хороший барбер. ",
+      "language": "ru",
+      "updated_at": "2024-01-18T13:00:11.067Z",
+      "pinned": false,
+      "likes": 1,
+      "dislikes": 0,
+      "author": {
+        "name": "Вячеслав Ф.",
+        "public_id": "krzq6jqz9pg0nt1kukeau2gqxr",
+        "level": "Знаток города 3 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/26311/0a-2/{size}",
+        "avatar_local_path": "avatars/krzq6jqz9pg0nt1kukeau2gqxr.jpg"
+      },
+      "business_reply": {
+        "text": "Благодарим за ваш отзыв",
+        "updated_at": "2024-01-24T08:29:18.429Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "Pn4ZvD_sdRI9M7IOf-2ItTH_voMGX8",
+      "rating": 5,
+      "text": "Ренат - мастер своего дела! Рекомендую!",
+      "language": "unknown",
+      "updated_at": "2022-07-03T12:42:28.501Z",
+      "pinned": false,
+      "likes": 1,
+      "dislikes": 0,
+      "author": {
+        "name": "Павел П.",
+        "public_id": "wateak1aym3qwjx5kutr1vmdyg",
+        "level": "Знаток города 4 уровня",
+        "avatar_url_template": ""
+      },
+      "business_reply": {
+        "text": "Спасибо за оценку",
+        "updated_at": "2024-01-24T08:29:46.245Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "oErfYjTlMJGNwHFzQaIXxuKzqEuzsg4k",
+      "rating": 3,
+      "text": "Дороговато...",
+      "language": "ru",
+      "updated_at": "2024-09-01T14:54:21.707Z",
+      "pinned": false,
+      "likes": 0,
+      "dislikes": 0,
+      "author": {
+        "name": "Евгений",
+        "public_id": "2w1dkpd0fhtufju54ykut409b4",
+        "level": "Знаток города 15 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/62162/0b-4/{size}",
+        "avatar_local_path": "avatars/2w1dkpd0fhtufju54ykut409b4.jpg"
+      },
+      "business_reply": null,
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "u6vMmCWhx2qCK6FpQvKdWxnAKmhVCM",
+      "rating": 5,
+      "text": "Все отлично, как всегда!\nРекомендую!",
+      "language": "ru",
+      "updated_at": "2024-02-29T09:30:17.619Z",
+      "pinned": false,
+      "likes": 0,
+      "dislikes": 0,
+      "author": {
+        "name": "Шпак",
+        "public_id": "pc1rceczwuh7yepp2yka7wzzc8",
+        "level": "Знаток города 13 уровня",
+        "avatar_url_template": ""
+      },
+      "business_reply": {
+        "text": "Спасибо за ваш отзыв! \nБудем рады вас видеть снова! ",
+        "updated_at": "2024-03-04T03:55:24.624Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "DH8rONMdOH_di9pkkpHpOLDgA0mJwaK2",
+      "rating": 5,
+      "text": "Профессионал!",
+      "language": "ru",
+      "updated_at": "2023-12-12T17:42:23.631Z",
+      "pinned": false,
+      "likes": 1,
+      "dislikes": 0,
+      "author": {
+        "name": "Инкогнито 8288",
+        "public_id": "78enkrc7c82p70enfc7vqv220g",
+        "level": "Знаток города 3 уровня",
+        "avatar_url_template": "https://avatars.mds.yandex.net/get-yapic/56823/0g-7/{size}",
+        "avatar_local_path": "avatars/78enkrc7c82p70enfc7vqv220g.jpg"
+      },
+      "business_reply": {
+        "text": "Спасибо за ваш отзыв",
+        "updated_at": "2023-12-16T15:07:23.456Z"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "id": "6DGka5g4TWREkSGi9KIeMNtNpnLSAI7d",
+      "rating": 5,
+      "text": "Лучший ",
+      "language": "unknown",
+      "updated_at": "2022-11-01T14:44:25.629Z",
+      "pinned": false,
+      "likes": 1,
+      "dislikes": 0,
+      "author": {
+        "name": "Mr Spaceman",
+        "public_id": "k1a1bkm1446ezvnyge8tdqq8t0",
+        "level": "Знаток города 2 уровня",
+        "avatar_url_template": ""
+      },
+      "business_reply": null,
+      "photos": [],
+      "videos": []
+    }
+  ],
+  "review_aspects": [
+    {
+      "text": "Мастера",
+      "count": 15,
+      "positive": 14,
+      "negative": 0
+    },
+    {
+      "text": "Персонал",
+      "count": 15,
+      "positive": 15,
+      "negative": 0
+    },
+    {
+      "text": "Обслуживание",
+      "count": 14,
+      "positive": 14,
+      "negative": 0
+    },
+    {
+      "text": "Барберы",
+      "count": 11,
+      "positive": 11,
+      "negative": 0
+    }
+  ],
+  "aspects": [
+    {
+      "id": "3502044050",
+      "text": "Персонал",
+      "count": 15,
+      "positive": 15,
+      "neutral": 0,
+      "negative": 0,
+      "is_trusted": true
+    },
+    {
+      "id": "3502086893",
+      "text": "Барберы",
+      "count": 11,
+      "positive": 11,
+      "neutral": 0,
+      "negative": 0,
+      "is_trusted": true
+    }
+  ],
+  "review_poll_topics": [
+    "Персонал",
+    "Мастера",
+    "Обслуживание",
+    "Барберы",
+    "Стрижка",
+    "Компетентность"
+  ],
+  "breadcrumbs": [
+    {
+      "name": "Карты",
+      "type": "root",
+      "url": "https://yandex.ru/maps/"
+    },
+    {
+      "name": "Екатеринбург",
+      "type": "region",
+      "url": "https://yandex.ru/maps/54/yekaterinburg/",
+      "region": {
+        "center": [
+          60.597636,
+          56.837435
+        ],
+        "zoom": 12
+      }
+    },
+    {
+      "category": {
+        "id": "239628851835",
+        "name": "Барбершоп",
+        "class": "hairdressers",
+        "seoname": "barber_shop",
+        "pluralName": "Барбершопы"
+      },
+      "name": "Барбершопы",
+      "type": "category",
+      "url": "https://yandex.ru/maps/54/yekaterinburg/category/barber_shop/239628851835/"
+    },
+    {
+      "name": "R. A. F. T",
+      "type": "search",
+      "url": "https://yandex.ru/maps/org/r_a_f_t/84586990378/"
+    }
+  ],
+  "region": {
+    "id": 54,
+    "name": "Екатеринбург",
+    "seoname": "yekaterinburg"
+  },
+  "uri": "ymapsbm1://org?oid=84586990378",
+  "yandex_maps_url": "https://yandex.ru/maps/org/r_a_f_t/84586990378/"
+}

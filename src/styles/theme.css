@@ -1,0 +1,41 @@
+:root {
+  --font-size: 16px;
+  --background: #12110f;
+  --foreground: #f3eee6;
+  --primary: #b8734a;
+  --muted: #1a1816;
+  --muted-foreground: #a79f94;
+  --radius: 0.125rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --font-brand: "Unbounded", sans-serif;
+  --font-sans: "Onest", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Onest", system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+
+  html {
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  * {
+    scrollbar-width: none;
+  }
+}

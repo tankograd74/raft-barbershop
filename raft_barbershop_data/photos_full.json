@@ -1,0 +1,532 @@
+{
+  "data": [
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c78942a69ff1d607045c586d847",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10702157/2a0000018c78942a69ff1d607045c586d847/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c78942dcc85008a022c9fd517e2",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "width": 1280,
+      "height": 1279,
+      "url": "https://avatars.mds.yandex.net/get-altay/10814540/2a0000018c78942dcc85008a022c9fd517e2/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c7894bd7a4bc98fd838bbb61e0e",
+      "tags": [
+        {
+          "id": "Enter",
+          "name": "Вход"
+        }
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/1439437/2a0000018c7894bd7a4bc98fd838bbb61e0e/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:06Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c789449c29a9cb7c0e2c41d4bde",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018c789449c29a9cb7c0e2c41d4bde/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c7894389cf52e4ea99fa608c928",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11396712/2a0000018c7894389cf52e4ea99fa608c928/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c789438920754a8570f6b9ab638",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10812438/2a0000018c789438920754a8570f6b9ab638/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c78944a8a7e4f4bfbefcd02e92a",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11004775/2a0000018c78944a8a7e4f4bfbefcd02e92a/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c78951ba0fe9b13810827cd4f58",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10648814/2a0000018c78951ba0fe9b13810827cd4f58/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:31Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c7894c01844cb2d331acf0e9ef8",
+      "tags": [
+        {
+          "id": "Enter",
+          "name": "Вход"
+        }
+      ],
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11244149/2a0000018c7894c01844cb2d331acf0e9ef8/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:06Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c7894498743310d4e20f3c95361",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018c7894498743310d4e20f3c95361/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c789519f4f2302e84a7dfeb9caa",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "width": 1029,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11385489/2a0000018c789519f4f2302e84a7dfeb9caa/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:31Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c78951c6daade78a764b3a2bb92",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11421964/2a0000018c78951c6daade78a764b3a2bb92/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:31Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c78944887929ba83b661de5774b",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10700095/2a0000018c78944887929ba83b661de5774b/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c78951eb131c97700ddf33554bc",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10700095/2a0000018c78951eb131c97700ddf33554bc/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:31Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c78951f05ac8acffcb2d75b65a6",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "width": 960,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10350441/2a0000018c78951f05ac8acffcb2d75b65a6/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:31Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c78956d4ef1f2f8ff279f4f9cda",
+      "tags": [
+        {
+          "id": "Goods",
+          "name": "Товары"
+        }
+      ],
+      "width": 1280,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11406796/2a0000018c78956d4ef1f2f8ff279f4f9cda/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:51Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c789440304b1d091df83b4ef3ca",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10700956/2a0000018c789440304b1d091df83b4ef3ca/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c78943e8fe075e9461b24238ee1",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "width": 1024,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11381866/2a0000018c78943e8fe075e9461b24238ee1/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:20:36Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018c78956ded4f3a988fd8277bb5f9",
+      "tags": [
+        {
+          "id": "Goods",
+          "name": "Товары"
+        }
+      ],
+      "width": 1280,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/10637974/2a0000018c78956ded4f3a988fd8277bb5f9/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-17T16:21:51Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:16494614-2a0000019c7047af7dcbc4ec8769af79854c",
+      "tags": [
+        {
+          "id": "Exterior",
+          "name": "Снаружи"
+        }
+      ],
+      "width": 960,
+      "height": 720,
+      "url": "https://avatars.mds.yandex.net/get-altay/16494614/2a0000019c7047af7dcbc4ec8769af79854c/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2026-02-18T00:13:45Z"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:qpuTGXOYjqJ-P9TC4tPThTZlUJBYYM",
+      "tags": [
+        {
+          "id": "Interior",
+          "name": "Внутри"
+        }
+      ],
+      "width": 900,
+      "height": 1125,
+      "url": "https://avatars.mds.yandex.net/get-altay/5110793/2a00000180c733004920ed5f87ef66147996/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "GL",
+        "updateTime": "2022-05-15T10:10:50Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/61207/88pcWTBHOmn1praLQniUAwE2M-1/{size}",
+        "publicId": "q00yjbbzygfh6urg1wmen1472r"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:2a0000018ca63483e9aba2b91920959ec117",
+      "tags": [
+        {
+          "id": "Services",
+          "name": "Услуги"
+        }
+      ],
+      "width": 897,
+      "height": 1280,
+      "url": "https://avatars.mds.yandex.net/get-altay/11396712/2a0000018ca63483e9aba2b91920959ec117/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Renamirxan12",
+        "updateTime": "2023-12-26T12:58:30Z",
+        "hasUserIcon": true,
+        "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/20289515/E3E1u2XX6DNY4OMQ2qFjUiAZgjo-1/{size}",
+        "publicId": "48g1xktqkr81e9mb639h5p2anr"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:16299341-2a000001996ab31646a175cdd0d31f9eb50f",
+      "tags": [
+        {
+          "id": "Exterior",
+          "name": "Снаружи"
+        }
+      ],
+      "width": 960,
+      "height": 720,
+      "url": "https://avatars.mds.yandex.net/get-altay/16299341/2a000001996ab31646a175cdd0d31f9eb50f/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2025-09-20T18:42:50Z"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:15053227-2a0000019576b445b1518034006d1c0529e9",
+      "tags": [
+        {
+          "id": "Enter",
+          "name": "Вход"
+        }
+      ],
+      "width": 1280,
+      "height": 960,
+      "url": "https://avatars.mds.yandex.net/get-altay/15053227/2a0000019576b445b1518034006d1c0529e9/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2025-03-04T16:37:23Z"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:13220791-2a00000195774374c9d65b0a5db64bf2e26e",
+      "tags": [
+        {
+          "id": "Exterior",
+          "name": "Снаружи"
+        }
+      ],
+      "width": 1280,
+      "height": 960,
+      "url": "https://avatars.mds.yandex.net/get-altay/13220791/2a00000195774374c9d65b0a5db64bf2e26e/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2025-03-04T16:37:23Z"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:17700564-2a0000019c6fce107619f66c8d7e6bcbc0ad",
+      "tags": [
+        {
+          "id": "Enter",
+          "name": "Вход"
+        }
+      ],
+      "width": 960,
+      "height": 720,
+      "url": "https://avatars.mds.yandex.net/get-altay/17700564/2a0000019c6fce107619f66c8d7e6bcbc0ad/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2026-02-18T00:13:45Z"
+      }
+    },
+    {
+      "id": "urn:yandex:sprav:photo:20185783_2a0000019cc17bc9cb96af267b6fe37cb5ac",
+      "tags": [
+        {
+          "id": "Panorama",
+          "name": "Панорама"
+        }
+      ],
+      "width": 1280,
+      "height": 750,
+      "url": "https://avatars.mds.yandex.net/get-altay/20185783/2a0000019cc17bc9cb96af267b6fe37cb5ac/XXXL",
+      "showReactions": true,
+      "copyright": {
+        "name": "Яндекс",
+        "url": "https://ya.ru/",
+        "updateTime": "2026-03-06T04:50:42Z"
+      }
+    }
+  ]
+}
