@@ -13,7 +13,7 @@ import {
   Tag,
   ArrowRight,
 } from "lucide-react";
-import type { GalleryFilter, SiteData } from "./types";
+import type { GalleryItem, SiteData } from "./types";
 
 function getOpenStatus(site: SiteData): { isOpen: boolean; label: string } {
   const wh = site.working_hours;
@@ -102,7 +102,7 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [bookingOpen, setBookingOpen] = useState(false);
   const [lightbox, setLightbox] = useState<number | null>(null);
-  const [filter, setFilter] = useState<GalleryFilter>("all");
+  const [carouselIdx, setCarouselIdx] = useState(0);
   const [revIdx, setRevIdx] = useState(0);
   const [scrolled, setScrolled] = useState(false);
   const [form, setForm] = useState({
@@ -139,10 +139,18 @@ export default function App() {
   }, [bookingOpen, lightbox]);
 
   const openStatus = useMemo(() => (site ? getOpenStatus(site) : null), [site]);
-  const galleryFiltered = useMemo(() => {
-    if (!site) return [];
-    return filter === "all" ? site.gallery : site.gallery.filter((g) => g.category === filter);
-  }, [site, filter]);
+
+  /** Works first, then interior — no entrance/exterior/products. */
+  const gallerySlides = useMemo(() => {
+    if (!site) return [] as GalleryItem[];
+    const work = site.gallery.filter((g) => g.category === "work");
+    const interior = site.gallery.filter((g) => g.category === "interior");
+    return [...work, ...interior];
+  }, [site]);
+
+  useEffect(() => {
+    setCarouselIdx(0);
+  }, [gallerySlides.length]);
 
   const ratingDisplay = site ? (Math.round(site.rating.value * 10) / 10).toFixed(1) : "";
 
@@ -161,6 +169,15 @@ export default function App() {
   const nextRev = () => {
     if (!site) return;
     setRevIdx((i) => (i + 1) % site.reviews.length);
+  };
+
+  const prevSlide = () => {
+    if (!gallerySlides.length) return;
+    setCarouselIdx((i) => (i - 1 + gallerySlides.length) % gallerySlides.length);
+  };
+  const nextSlide = () => {
+    if (!gallerySlides.length) return;
+    setCarouselIdx((i) => (i + 1) % gallerySlides.length);
   };
 
   if (loadError) {
@@ -437,49 +454,75 @@ export default function App() {
                 хочется вернуться
               </h2>
             </div>
-
-            <div className="flex flex-wrap gap-2">
-              {(
-                [
-                  ["all", "Все"],
-                  ["work", "Работы"],
-                  ["interior", "Интерьер"],
-                  ["entrance", "Вход"],
-                  ["exterior", "Фасад"],
-                ] as [GalleryFilter, string][]
-              ).map(([f, l]) => (
-                <button
-                  key={f}
-                  type="button"
-                  onClick={() => setFilter(f)}
-                  className={`px-4 py-1.5 text-[12px] font-medium tracking-wide transition-all ${
-                    filter === f
-                      ? "bg-[#B8734A] text-[#F3EEE6]"
-                      : "border border-[rgba(243,238,230,0.14)] text-[#A79F94] hover:text-[#F3EEE6] hover:border-[rgba(243,238,230,0.3)]"
-                  }`}
-                >
-                  {l}
-                </button>
-              ))}
-            </div>
+            {gallerySlides[carouselIdx] && (
+              <p className="text-[#A79F94] text-[12px] tracking-wide uppercase">
+                {gallerySlides[carouselIdx].category === "work" ? "Работы" : "Интерьер"}
+                <span className="text-[#3A3530] mx-2">·</span>
+                <span className="tabular-nums">
+                  {carouselIdx + 1} / {gallerySlides.length}
+                </span>
+              </p>
+            )}
           </div>
 
-          <div className="columns-2 md:columns-3 lg:columns-4 gap-2.5 [column-gap:.625rem]">
-            {galleryFiltered.map((item, idx) => (
+          {gallerySlides.length > 0 && (
+            <div className="relative">
               <div
-                key={item.id}
-                className="gal-wrap break-inside-avoid mb-2.5 overflow-hidden cursor-pointer bg-[#24201C]"
-                onClick={() => setLightbox(idx)}
+                className="gal-wrap relative aspect-[4/5] sm:aspect-[16/10] overflow-hidden bg-[#24201C] cursor-pointer"
+                onClick={() => setLightbox(carouselIdx)}
                 onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") setLightbox(idx);
+                  if (e.key === "Enter" || e.key === " ") setLightbox(carouselIdx);
                 }}
                 role="button"
                 tabIndex={0}
+                aria-label="Открыть фото"
               >
-                <img src={assetUrl(item.url)} alt={item.alt} className="gal-img w-full block" loading="lazy" />
+                <img
+                  key={gallerySlides[carouselIdx].id}
+                  src={assetUrl(gallerySlides[carouselIdx].url)}
+                  alt={gallerySlides[carouselIdx].alt}
+                  className="gal-img absolute inset-0 w-full h-full object-cover"
+                />
               </div>
-            ))}
-          </div>
+
+              <div className="flex items-center justify-between gap-3 mt-5">
+                <div className="flex items-center gap-3">
+                  <button
+                    type="button"
+                    onClick={prevSlide}
+                    className="w-10 h-10 border border-[rgba(243,238,230,0.14)] hover:border-[#B8734A] text-[#A79F94] hover:text-[#B8734A] flex items-center justify-center transition-colors"
+                    aria-label="Предыдущее фото"
+                  >
+                    <ChevronLeft size={16} />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={nextSlide}
+                    className="w-10 h-10 border border-[rgba(243,238,230,0.14)] hover:border-[#B8734A] text-[#A79F94] hover:text-[#B8734A] flex items-center justify-center transition-colors"
+                    aria-label="Следующее фото"
+                  >
+                    <ChevronRight size={16} />
+                  </button>
+                </div>
+
+                <div className="hidden sm:flex flex-wrap gap-1.5 max-w-[60%] justify-end">
+                  {gallerySlides.map((slide, idx) => (
+                    <button
+                      key={slide.id}
+                      type="button"
+                      onClick={() => setCarouselIdx(idx)}
+                      aria-label={`Фото ${idx + 1}`}
+                      className={`h-1.5 transition-all ${
+                        idx === carouselIdx
+                          ? "w-6 bg-[#B8734A]"
+                          : "w-1.5 bg-[rgba(243,238,230,0.18)] hover:bg-[rgba(243,238,230,0.35)]"
+                      }`}
+                    />
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
@@ -960,7 +1003,7 @@ export default function App() {
         </div>
       )}
 
-      {lightbox !== null && galleryFiltered[lightbox] && (
+      {lightbox !== null && gallerySlides[lightbox] && (
         <div
           className="fixed inset-0 z-[70] bg-black/95 flex items-center justify-center p-4 md:p-12"
           onClick={() => setLightbox(null)}
@@ -978,17 +1021,18 @@ export default function App() {
             className="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 border border-[rgba(243,238,230,0.18)] flex items-center justify-center text-[#F3EEE6] hover:border-[#B8734A] transition-colors z-10"
             onClick={(e) => {
               e.stopPropagation();
-              setLightbox((i) =>
-                i !== null ? (i - 1 + galleryFiltered.length) % galleryFiltered.length : null,
-              );
+              if (lightbox === null) return;
+              const next = (lightbox - 1 + gallerySlides.length) % gallerySlides.length;
+              setLightbox(next);
+              setCarouselIdx(next);
             }}
             aria-label="Предыдущее фото"
           >
             <ChevronLeft size={17} />
           </button>
           <img
-            src={assetUrl(galleryFiltered[lightbox].url)}
-            alt={galleryFiltered[lightbox].alt}
+            src={assetUrl(gallerySlides[lightbox].url)}
+            alt={gallerySlides[lightbox].alt}
             className="max-h-full max-w-full object-contain"
             onClick={(e) => e.stopPropagation()}
           />
@@ -997,14 +1041,17 @@ export default function App() {
             className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 border border-[rgba(243,238,230,0.18)] flex items-center justify-center text-[#F3EEE6] hover:border-[#B8734A] transition-colors z-10"
             onClick={(e) => {
               e.stopPropagation();
-              setLightbox((i) => (i !== null ? (i + 1) % galleryFiltered.length : null));
+              if (lightbox === null) return;
+              const next = (lightbox + 1) % gallerySlides.length;
+              setLightbox(next);
+              setCarouselIdx(next);
             }}
             aria-label="Следующее фото"
           >
             <ChevronRight size={17} />
           </button>
           <p className="absolute bottom-4 left-1/2 -translate-x-1/2 text-[#A79F94] text-[12px] tabular-nums">
-            {lightbox + 1} / {galleryFiltered.length}
+            {lightbox + 1} / {gallerySlides.length}
           </p>
         </div>
       )}
