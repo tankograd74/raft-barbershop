@@ -141,12 +141,12 @@ export default function App() {
 
   const openStatus = useMemo(() => (site ? getOpenStatus(site) : null), [site]);
 
-  /** Works first, then interior — no entrance/exterior/products. */
+  /** Works first, then interior — no entrance/exterior/products. Drop first photo. */
   const gallerySlides = useMemo(() => {
     if (!site) return [] as GalleryItem[];
     const work = site.gallery.filter((g) => g.category === "work");
     const interior = site.gallery.filter((g) => g.category === "interior");
-    return [...work, ...interior];
+    return [...work, ...interior].slice(1);
   }, [site]);
 
   useEffect(() => {
