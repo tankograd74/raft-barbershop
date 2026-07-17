@@ -14,6 +14,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import type { GalleryItem, SiteData } from "./types";
+import DemoWatermark from "./DemoWatermark";
 
 function getOpenStatus(site: SiteData): { isOpen: boolean; label: string } {
   const wh = site.working_hours;
@@ -203,6 +204,7 @@ export default function App() {
 
   return (
     <>
+      <DemoWatermark />
       <style>{`
         .font-brand { font-family: 'Unbounded', sans-serif; }
 
